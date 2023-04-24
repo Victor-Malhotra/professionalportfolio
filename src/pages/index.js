@@ -7,8 +7,8 @@ export default function Home() {
     <div>
       <Canvas style={{height: "100vh",width: "100vw"}}>
       
- <ambientLight intensity={0.1}/>
-            <pointLight color="white" position={[5, 5, 5]}/>
+ <ambientLight intensity={0.5}/>
+            <pointLight color="white" intensity={0.8} position={[5, 5, 5]}/>
         
         <RoundedBoxButton positionDefine={[0,0,0,0]} scaleDefine={[3,3,3]} buttonName="About Me" />
         <OrbitControls />
