@@ -1,15 +1,18 @@
 import {Canvas} from '@react-three/fiber'
-import {Html} from '@react-three/drei'
-import CircleButton from '@/components/CircleButton'
+import {Html, OrbitControls, Stats} from '@react-three/drei'
+import RoundedBoxButton from '@/components/RoundedBoxButton'
 
 export default function Home() {
   return (
     <div>
-      <Canvas style={{height: "100vh", width:"100vw"}}>
+      <Canvas style={{height: "100vh",width: "100vw"}}>
+      
  <ambientLight intensity={0.1}/>
-            <directionalLight color="red" position={[-1,0,0,0]}/>
+            <pointLight color="white" position={[5, 5, 5]}/>
         
-        <CircleButton positionDefine={[0,0,0,0]} scaleDefine={[3,3,3]} buttonName="About Me"/>
+        <RoundedBoxButton positionDefine={[0,0,0,0]} scaleDefine={[3,3,3]} buttonName="About Me" />
+        <OrbitControls />
+        <Stats />
       </Canvas>
     </div>
   )
