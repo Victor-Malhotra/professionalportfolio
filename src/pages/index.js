@@ -9,9 +9,7 @@ export default function Home() {
       
  <ambientLight intensity={0.5}/>
             <pointLight color="white" intensity={0.8} position={[5, 5, 5]}/>
-        
-        <RoundedBoxButton positionDefine={[0,0,0,0]} scaleDefine={[3,3,3]} buttonName="About Me" />
-        <OrbitControls />
+        <RoundedBoxButton positionDefine={[10,10,0]} scaleDefine={[1,1,1]} buttonName="About Me" />
         <Stats />
       </Canvas>
     </div>
