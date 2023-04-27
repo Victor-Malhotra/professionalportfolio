@@ -5,7 +5,7 @@ export default function RoundedBoxButton({positonDefine, scaleDefine, buttonName
       <planeGeometry />
       <meshPhongMaterial attach="material" color="#44D0E4" />
           <Html style={{width:"100%"}}>
-        <p>{buttonName}</p>
+        {buttonName}
         </Html>
         </mesh>
   )
