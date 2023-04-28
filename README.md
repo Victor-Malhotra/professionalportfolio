@@ -23,9 +23,9 @@
                :7YJ :PPJ~  ^7^?55?BB#BBB&BBGB#&G#5:  .?JYY5GGJ^ ?P5YPPPGGGBGPPGB###BBGGGGB#5~:~???7!~::::.:~Y####BGGGGBBGP5J:   
           .~7YPG#BY    ^!~:B#####G?#BG:^~5GP###B#~   ~JJJ5P?:  :P5YP5^.JPP!:..:J#&#GGGGGGB?:^^^^^::..:::::...?####BGGGGGP5?:    
         !5GBBBGB7: ~!: G##:!#B#YY!~&BG    .JBBYBBY  .?JJ5J^    7PY5Y:  .YP!.   :75GGBBY!~^::::::...^^Y!.::::..5###BGGGGP5!.     
-      :5#B5YY#GB..~##Y GG#!~#G#^  :Y5?    :#GGJB#Y  :YJJ~     .Y55Y.    ~PGG7^~?YPG##P!......:::::^^~G!.:::::.?#B#BGBGGY~.:::^  
-      Y#BY5B##GBGBB#B5~#GBB#&B#:          .GBBBBP::!?55^      :5Y5:    .~5PP^~P#&&P7~:.:::::::::^^!5#B^::::::.?###BBBBGYYYYYYJ  
-      ~GGB###BGBP!~#GBG#BGBG!^^            .7J?~:?55PPPP:     ^5Y^     .7Y5Y.::~YY^....:::::::^:!5##BJ::::::::5#####BGPPP5?~:.  
+      :5#  B5YY#GB..~##Y GG#!~#G#^  :Y5?    :#GGJB#Y  :YJJ~     .Y55Y.    ~PGG7^~?YPG##P!......:::::^^~G!.:::::.?#B#BGBGGY~.:::^  
+      Y#  BY5B##GBGBB#B5~#GBB#&B#:          .GBBBBP::!?55^      :5Y5:    .~5PP^~P#&&P7~:.:::::::::^^!5#B^::::::.?###BBBBGYYYYYYJ  
+      ~GG  B###BGBP!~#GBG#BGBG!^^            .7J?~:?55PPPP:     ^5Y^     .7Y5Y.::~YY^....:::::::^:!5##BJ::::::::5#####BGPPP5?~:.  
         7BBB5BG#J  7BBBY.:^.                    !555PPPG~     :57       :7J5!....:^::::::::::~75BG5J?^:::::::7#####BGP5Y7:      
        ~BGB7 GG#7   :^:                         ?PPPPPPG~     .?:        ^?JY7:..:^^::::^!?!^?GYJ7~7~::::::~7P#B##BGGPY7~!7???  
       .GBBP 7BBG.                         .:~!~:^5GBBBGG~      :          .^7YJ7^::::!JPBB##GJ7??7^^:::^~!??JBBG##BBGP555Y?!^.  
@@ -33,4 +33,4 @@
        .7YPPY!                          :JYYY55PG5GBBGGGP:                    ...:~!7^:.:~~~~^^:^~~!!777~^^~PGGGBB##B5JJJJJ??!  
 
  
- TO Edit this portfolio you m
+ To edit this portfolio for your personal use must download it and change the files itself. to run the admin you will need to have a .env file with this: AdminPsswd="{Whatever password you want}"
