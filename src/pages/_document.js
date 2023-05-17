@@ -5,9 +5,9 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head />
-      <body>
-        <Navbar />
-        <Main className="overflow-auto"/>
+      <body className=' overflow-hidden'>
+        <Navbar className="absolute"/>
+        <Main className="overflow-auto relative"/>
         <NextScript />
       </body>
     </Html>

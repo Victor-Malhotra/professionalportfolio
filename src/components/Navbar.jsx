@@ -4,10 +4,16 @@ import  Hamburger  from 'hamburger-react'
 import Link from 'next/link'
 
 const Navbar=() => {
-  const [isOpen, setOpen] = useState(false)
+  const [isOpen,setIsOpen]=useState(false)
+  const [clicked, setClicked] = useState(false)
   return (
-    <div className='float-right z-50 mr-2 mt-2 bg-[#4aecece2] p-2 text-3xl rounded-lg'><Hamburger duration={0.8} toggled={() => {isOpen}} toggle={() => {setOpen; console.log(isOpen)}} /><UnderNAV /></div>
-    
+    <div>
+      <div onMouseOver={()=>{console.log(hi)}} className='float-right z-50 mr-2 mt-2 bg-[#4aecece2] p-2 text-3xl rounded-lg hover:bg-[#5ae]' onClick={() => {setIsOpen(!isOpen); console.log(isOpen)}}>{isOpen?(<AiOutlineClose onClick={()=>{setIsOpen(!isOpen)}}/>):(<AiOutlineMenu onClick={()=>{setIsOpen(!isOpen)}}/>)}
+      {console.log(isOpen)}
+      </div>
+      {isOpen?(<div className='float-right z-50 mr-2 mt-2 bg-[#4aecece2] p-2 text-3xl rounded-lg'>{isOpen?(<UnderNAV />):(<div></div>)}</div>):(<div></div>)}
+       
+    </div>
   )
 }
 
